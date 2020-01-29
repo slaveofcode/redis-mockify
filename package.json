@@ -1,0 +1,32 @@
+{
+  "name": "redis-mockify",
+  "version": "1.0.0",
+  "description": "An updated redis mock for unimplemented redis-command based on redis-mock library",
+  "main": "./lib/redis-mock",
+  "scripts": {
+    "test": "make test",
+    "lint": "eslint ./lib ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slaveofcode/redis-mockify.git"
+  },
+  "keywords": [
+    "redis",
+    "redis-mock",
+    "redis-mockify",
+    "mock-redis"
+  ],
+  "author": "Aditya Kresna Permana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/slaveofcode/redis-mockify/issues"
+  },
+  "homepage": "https://github.com/slaveofcode/redis-mockify#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "mocha": "^7.0.1",
+    "redis": "^2.8.0",
+    "should": "^13.2.3"
+  }
+}
